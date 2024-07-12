@@ -24,7 +24,7 @@ The repository is organized as follows:
 
 ## Links
 
-- **January**: [Understanding confidence interval](https://medium.com/@cartelgouabou/understanding-confidence-intervals-in-medical-task-prediction-c7694a1d3205)[Notebook](https://medium.com/@cartelgouabou/understanding-confidence-intervals-in-medical-task-prediction-c7694a1d3205)
+- [Understanding confidence interval](https://medium.com/@cartelgouabou/understanding-confidence-intervals-in-medical-task-prediction-c7694a1d3205): [Notebook](https://medium.com/@cartelgouabou/understanding-confidence-intervals-in-medical-task-prediction-c7694a1d3205)
 
 ## Contributing
 
