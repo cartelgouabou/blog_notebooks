@@ -6,7 +6,7 @@ Welcome to the **Monthly Data Science Insights** repository! This repository con
 
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
-4? [Links](#links)
+3. [Links](#links)
 4. [Contact](#contact)
 
 ## Introduction
