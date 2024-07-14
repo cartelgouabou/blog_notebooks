@@ -22,9 +22,9 @@ cd your-repo-name
 ```
 
 ### 2. Download the Dataset
-Download the Chest X-ray dataset from Kaggle:
+Download the Chest X-ray dataset from Kaggle. The dataset can be found at the following link:
 
-Kaggle Dataset Link
+[Kaggle Dataset Link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 ### 3. Install Requirements
 Install the required Python packages:
