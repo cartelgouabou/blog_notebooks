@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the project repository for "Enhancing Medical Predictions: A Comprehensive Guide to Model Calibration". This repository accompanies a Medium article that delves into the importance of model calibration in medical predictions and provides a detailed, step-by-step guide to implementing these techniques using Python. The primary focus of this script is to illustrate the concept of calibration rather than optimize the model's performance.
+This repository accompanies the medium article etitle ["Enhancing Medical Predictions: A Comprehensive Guide to Model Calibration"](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) that delves into the importance of model calibration in medical predictions and provides a detailed, step-by-step guide to implementing these techniques using Python. The primary focus of this script is to illustrate the concept of calibration rather than optimize the model's performance.
 
 ## Purpose of the Script
 
