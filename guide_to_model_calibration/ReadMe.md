@@ -45,12 +45,19 @@ ChestXRayClassifier: Manages data loading, model building, training, and calibra
 ### Key Functions
 
 `load_data()`: Loads the datasets for training, validation, and testing.
+
 `build_model()`: Constructs the neural network using MobileNetV2 architecture.
+
 `train_model()`: Trains the model and applies early stopping.
+
 `generate_predictions()`: Generates predictions on the dataset.
+
 `evaluate_stats()`: Evaluates the model using various statistical metrics.
+
 `enhance_calibration()`: Applies calibration techniques to improve model reliability.
+
 `apply_platt_scaling()`: Applies Platt Scaling to the model predictions.
+
 `save_model()`: Saves the trained model for future use.
 
 ## Conclusion
