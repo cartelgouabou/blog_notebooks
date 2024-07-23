@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ### 4. Run the Notebook
 Execute the Jupyter notebook to follow the implementation and results:
 ```bash
-jupyter notebook your_notebook_name.ipynb
+jupyter notebook chest_classification.ipynb
 ```
 
 ## Code Structure
