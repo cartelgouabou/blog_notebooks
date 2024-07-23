@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository accompanies the medium article etitle ["Enhancing Medical Predictions: A Comprehensive Guide to Model Calibration"](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) that delves into the importance of model calibration in medical predictions and provides a detailed, step-by-step guide to implementing these techniques using Python. The primary focus of this script is to illustrate the concept of calibration rather than optimize the model's performance.
+This repository accompanies the medium article etitle ["Enhancing Medical Predictions: A Comprehensive Guide to Model Calibration"](https://medium.com/@cartelgouabou/enhancing-medical-predictions-a-comprehensive-guide-to-model-calibration-3ea741be88d7) that delves into the importance of model calibration in medical predictions and provides a detailed, step-by-step guide to implementing these techniques using Python. The primary focus of this script is to illustrate the concept of calibration rather than optimize the model's performance.
 
 ## Purpose of the Script
 
@@ -44,21 +44,16 @@ DataExplorer: Handles the exploration and visualization of dataset statistics.
 ChestXRayClassifier: Manages data loading, model building, training, and calibration processes.
 ### Key Functions
 
-`load_data()`: Loads the datasets for training, validation, and testing.
-
-`build_model()`: Constructs the neural network using MobileNetV2 architecture.
-
-`train_model()`: Trains the model and applies early stopping.
-
-`generate_predictions()`: Generates predictions on the dataset.
-
-`evaluate_stats()`: Evaluates the model using various statistical metrics.
-
-`enhance_calibration()`: Applies calibration techniques to improve model reliability.
-
-`apply_platt_scaling()`: Applies Platt Scaling to the model predictions.
-
-`save_model()`: Saves the trained model for future use.
+- `__init__(self, img_size=224, batch_size=64)`: Initializes with image size and batch size.
+- `load_data(self, train_dir, val_dir, test_dir)`: Loads and preprocesses data using ImageDataGenerator.
+- `build_model(self, initial_layer_freezed_ratio=0.80, learning_rate=0.001)`: Builds the DenseNet121 model with custom layers on top.
+- `train_model(self, epochs=10, early_stopping_patience=10)`: Trains the model with early stopping and learning rate reduction.
+- `generate_predictions(self, subset='val')`: Generates predictions on validation or test set.
+- `enhance_calibration(self)`: Applies Platt Scaling for calibration.
+- `expected_calibration_error(self, samples, true_labels, M=5)`: Computes Expected Calibration Error (ECE).
+- `evaluate_and_plot(self, preds, y_true, title, pos)`: Evaluates metrics and plots calibration curve.
+- `combined_calibration_plots(self)`: Generates combined calibration plots before and after Platt Scaling.
+- `save_model(self, root_model_name)`: Saves the model architecture and weights.
 
 ## Conclusion
 This project serves as a practical guide to understanding and implementing model calibration in the context of medical predictions using deep learning. By following the steps outlined in this repository, users can gain insights into the calibration process and apply these techniques to their own predictive models.
