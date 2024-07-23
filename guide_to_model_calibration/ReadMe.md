@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository accompanies the medium article etitle ["Enhancing Medical Predictions: A Comprehensive Guide to Model Calibration"](https://medium.com/@cartelgouabou/enhancing-medical-predictions-a-comprehensive-guide-to-model-calibration-3ea741be88d7) that delves into the importance of model calibration in medical predictions and provides a detailed, step-by-step guide to implementing these techniques using Python. The primary focus of this script is to illustrate the concept of calibration rather than optimize the model's performance.
+This repository complements the Medium article titled ["Enhancing Medical Predictions: A Comprehensive Guide to Model Calibration"](https://medium.com/@cartelgouabou/enhancing-medical-predictions-a-comprehensive-guide-to-model-calibration-3ea741be88d7) which delves into the importance of model calibration in medical predictions and provides a detailed, step-by-step guide to implementing these techniques using Python. The primary focus of this script is to illustrate the concept of calibration rather than to optimize the model's performance.
 
 ## Purpose of the Script
 
